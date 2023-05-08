@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>Guia Turístico de Imbituba</title>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    
+                    <link rel="stylesheet" href="../../style/style.css">
+                    <link rel="stylesheet" href="../../style/reset.min.css">
+                    <link rel="stylesheet" href="../../style/default.css">
+                    <link rel="stylesheet" href="../../style/stylecarrosel.css">
+                    <link rel="stylesheet" href="../../style/animation.css">
+                    <link rel="stylesheet" href="../../style/stylegallery.css">
+                <script src="https://kit.fontawesome.com/a80844ac88.js" crossorigin="anonymous"></script>
+        </head>
+        <body bgcolor= #13293d>
+            <div id="all">
+                <ul id=menu-h>
+                    <font color="#272e3a">
+                        <font color="white">
+                            <font size="6">⠀⠀⠀⠀⠀<img src="../../images/icons/logo do site.png" id="logo">Guia de Imbituba⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                <font color="#272e3a">
+                                </font>
+                            </font>
+                        </font>
+                    </font>
+                    
+                        <li><a href="../paginainicial.html">
+                            <font size="4"><img src="../../images/icons/inicio-icon 1.png" id="iconehome">⠀Inicio
+                        </li>
+                        <li>
+                        <img src="../../images/icons/placa-direcao-icon 1.png">⠀Oque Fazer</a>
+                <ul>
+                    <li><a href="../GaleriaPraias.html">🌊 Praias</a></li><br>
+                    <li><a href="../GaleriaLagoas.html">🦆 Lagoas</a></li><br>
+                    <li><a href="../GaleriaHistoricos.html">⛪ Lugares Históricos</li>
+                </ul>
+                        </li>    
+                        <li><a href="../sobre.html"><img src="../../images/icons/sobre-icon 1.png" id="iconsobre">⠀Sobre a Cidade</a>
+                        </li>  
+                        <li>
+                            <a href="../../html/quemsomos.html"><img id="iconsobre" src="../../images/icons/grupo-de-usuarios.png">⠀Quem Somos</a>
+                        </li>                     
+                </ul>
+                
+                    
+                </ul>
+          <br>
+
+          
+          
+<div id="lucaschato">
+         <div id="googlemapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11831.539177071609!2d-48.65655772740181!3d-28.160560217690385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cbf1758c5d85%3A0xaff62728c54df625!2sIbiraquera!5e0!3m2!1spt-BR!2sbr!4v1669567648498!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+         <img id="imagempraia" src="../../images/Barra da Ibiraquera/praia-de-ibiraquera.jpg">
+        </div>
+            <br>
+          <div id="textozimba">
+          <h1><b>Barra de Ibiraquera</b><br></h1>
+        <h2>Ibiraquera</h2></div>
+          <br><br>
+        <div class="textosobreibiraquera"><p><h2>Conhecida por ser uma das principais praias de Imbituba, a praia da Barra de Ibiraquera é perfeita para passar dias em família com os pés na areia ou tomar agradáveis banhos de mar. <br><br>
+            Com águas cristalinas e areias finas e brancas, a praia de Ibiraquera é muito procurada por famílias com crianças, como também pelos surfistas de plantão, já que a formação de ondas nessa praia é perfeita para a prática desse esporte.
+        </h2></p></div>
+
+
+        <br><br><br><br><br><br><br>
+
+        <div id="galeriadefotos">
+            <div class="full-img" id="fullImgBox">
+              <img src="../../images/imagesGallery/1.jpg" id="fullImg">
+              <span onclick="closeFullImg()">X</span>
+              </div>
+        <div class="img-gallery">
+            <img src="../../images/Barra da Ibiraquera/barra-de-ibiraquera-2.jpg" onclick="openFullImg(this.src)">
+            <img src="../../images/Barra da Ibiraquera/pousada-lagoa-mar-3.jpeg" onclick="openFullImg(this.src)">
+            <img src="../../images/Barra da Ibiraquera/Barra-de-Ibiraquera-1.jpg" onclick="openFullImg(this.src)">
+          <!--<img src="../../images/Praia do Luz/GaleriaPraiadaLuz(4).jpg" onclick="openFullImg(this.src)">
+          <img src="../../images/Praia do Luz/GaleriaPraiadaLuz(5).jpg" onclick="openFullImg(this.src)">
+          <img src="../../images/Praia do Luz/GaleriaPraiadaLuz(1).jpg" onclick="openFullImg(this.src)">-->
+          
+      </div>
+      </div>
+      
+      <script>
+          var fullImgBox = document.getElementById("fullImgBox");
+          var fullImg = document.getElementById("fullImg");
+          function openFullImg(pic){
+              fullImgBox.style.display = "flex";
+              fullImg.src = pic;
+          }
+          
+          function closeFullImg(){
+              fullImgBox.style.display = "none";
+          }
+      </script>
+      
+      
+      
+                  <footer><img src="../../images/icons/logo do site.png" id="logofinal">
+                    <div id="textofinal"><center>Projeto realizado por Alunos da Escola 
+                      Engenheiro Annes Gualberto<br><br>
+                     Imbituba, Santa Catarina</center></div>
+                 </footer>
+    
+              </body>
+              </html>
